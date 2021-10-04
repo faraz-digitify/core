@@ -21,18 +21,6 @@ allprojects {
         maven{
             setUrl("https://jitpack.io")
         }
-        maven {
-            setUrl("https://raw.github.com/synergian/wagon-git/releases") }
-        maven {
-            credentials {
-                username = AppSecrets.USERNAME
-                password = AppSecrets.PASSWORD
-            }
-            authentication {
-                create<BasicAuthentication>("basic")
-            }
-            setUrl("https://api.bitbucket.org/2.0/repositories/mb28/android-yap-permissions/src/releasesLib")
-        }
         google()
         jcenter() // Warning: this repository is going to shut down soon
     }
