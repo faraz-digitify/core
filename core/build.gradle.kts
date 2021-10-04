@@ -1,11 +1,11 @@
-//apply("uploadLibrary.gradle.kts")
 plugins {
     id(BuildPluginsConfig.androidLibrary)
     kotlin(BuildPluginsConfig.kotlinAndroid)
     kotlin(BuildPluginsConfig.kotlinKapt)
     id(BuildPluginsConfig.kotlinParcelize)
+    id(ScriptPlugins.github)
 }
-group = "com.faraz-digitify"
+group = "com.github.faraz-digitify"
 //apply {
 //    from("../uploadLibrary.gradle")
 //}

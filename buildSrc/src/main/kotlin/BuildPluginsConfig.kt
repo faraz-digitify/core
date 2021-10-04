@@ -16,4 +16,5 @@ object ScriptPlugins {
     const val variants = "scripts.variants"
     const val quality = "scripts.quality"
     const val compilation = "scripts.compilation"
+    const val github = "com.github.dcendents.android-maven"
 }
