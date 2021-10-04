@@ -38,6 +38,7 @@ dependencies {
 
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     api(project(":base"))
+    api(project(":core"))
 
     implementation(DependenciesManager.kotlinImplementation)
     implementation(DependenciesManager.lifeCycleKtxImplementation)
