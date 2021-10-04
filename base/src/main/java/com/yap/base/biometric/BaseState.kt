@@ -1,9 +1,9 @@
-package com.yap.base.core
+package com.yap.base.biometric
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.ObservableBoolean
 import androidx.lifecycle.MutableLiveData
-import com.yap.base.core.interfaces.IBase
+import com.yap.base.biometric.interfaces.IBase
 import com.yap.base.sealed.UIEvent
 
 abstract class BaseState : BaseObservable(), IBase.State {

@@ -1,4 +1,4 @@
-package com.yap.base.core
+package com.yap.base.biometric
 
 import android.os.Handler
 import android.os.Looper

@@ -1,4 +1,4 @@
-package com.yap.base.core
+package com.yap.base.biometric
 
 sealed class Dispatcher {
     object Main : Dispatcher()

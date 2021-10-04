@@ -1,6 +1,6 @@
 package com.digitify.test.demo
 
-import com.yap.core.base.interfaces.IBase
+import com.yap.base.biometric.interfaces.IBase
 
 
 interface IMain {

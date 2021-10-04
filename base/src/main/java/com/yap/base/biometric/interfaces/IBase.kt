@@ -1,8 +1,8 @@
-package com.yap.base.core.interfaces
+package com.yap.base.biometric.interfaces
 
 import androidx.databinding.ObservableBoolean
 import androidx.lifecycle.MutableLiveData
-import com.yap.base.core.SingleClickEvent
+import com.yap.base.biometric.SingleClickEvent
 import com.yap.base.sealed.UIEvent
 
 interface IBase {

@@ -1,9 +1,9 @@
-package com.yap.base.core
+package com.yap.base.biometric
 
 import android.view.View
 import androidx.lifecycle.*
-import com.yap.base.core.interfaces.IBase
-import com.yap.base.core.interfaces.ILifecycle
+import com.yap.base.biometric.interfaces.IBase
+import com.yap.base.biometric.interfaces.ILifecycle
 import com.yap.base.sealed.UIEvent
 import kotlinx.coroutines.*
 

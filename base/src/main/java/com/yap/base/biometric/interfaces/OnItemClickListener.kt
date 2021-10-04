@@ -1,4 +1,4 @@
-package com.yap.base.core.interfaces
+package com.yap.base.biometric.interfaces
 
 import android.view.View
 
