@@ -37,7 +37,7 @@ android {
 dependencies {
 
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    api(project(":core"))
+    api(project(":base"))
 
     implementation(DependenciesManager.kotlinImplementation)
     implementation(DependenciesManager.lifeCycleKtxImplementation)
