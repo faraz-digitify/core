@@ -5,6 +5,7 @@ plugins {
     kotlin(BuildPluginsConfig.kotlinKapt)
     id(BuildPluginsConfig.kotlinParcelize)
 }
+group = "com.faraz-digitify"
 //apply {
 //    from("../uploadLibrary.gradle")
 //}
