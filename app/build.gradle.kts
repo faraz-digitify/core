@@ -43,7 +43,7 @@ dependencies {
     implementation(DependenciesManager.androidxImplementation)
     implementation(DependenciesManager.hiltImplementation)
     kapt(HiltDaggerDependencies.DAGGER_COMPILER)
-    implementation(project(mapOf("path" to ":core")))
+    implementation(project(":core"))
 
     testImplementation ("junit:junit:4.13.2")
     androidTestImplementation ("androidx.test.ext:junit:1.1.3")
