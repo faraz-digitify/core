@@ -38,7 +38,7 @@ dependencies {
 
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     api(project(":base"))
-    api(project(":core"))
+//    api(project(":core"))
 
     implementation(DependenciesManager.kotlinImplementation)
     implementation(DependenciesManager.lifeCycleKtxImplementation)
@@ -46,7 +46,6 @@ dependencies {
     implementation(DependenciesManager.hiltImplementation)
     kapt(HiltDaggerDependencies.DAGGER_COMPILER)
 
-    api("com.yap.permissionx:permissionx:0.0.1")
 
     testImplementation ("junit:junit:4.13.2")
     androidTestImplementation ("androidx.test.ext:junit:1.1.3")
