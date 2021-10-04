@@ -2,7 +2,6 @@ plugins {
     id(BuildPluginsConfig.androidLibrary)
     kotlin(BuildPluginsConfig.kotlinAndroid)
     kotlin(BuildPluginsConfig.kotlinKapt)
-    id(BuildPluginsConfig.kotlinParcelize)
     id(ScriptPlugins.github)
 }
 group = "com.github.faraz-digitify"

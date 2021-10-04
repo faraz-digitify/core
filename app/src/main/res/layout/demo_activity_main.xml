@@ -4,9 +4,6 @@
 
     <data>
 
-        <variable
-            name="viewModel"
-            type="com.digitify.test.demo.MainViewModel" />
 
     </data>
 
