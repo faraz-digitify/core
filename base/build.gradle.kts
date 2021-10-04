@@ -70,7 +70,7 @@ dependencies {
 
     // adjust
     api("com.adjust.sdk:adjust-android:4.28.1")  //adjust
-    implementation("com.android.installreferrer:installreferrer:2.2")  //adjustReferrer
+//    implementation("com.android.installreferrer:installreferrer:2.2")  //adjustReferrer
 
 }
 
