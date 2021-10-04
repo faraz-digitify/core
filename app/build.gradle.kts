@@ -42,6 +42,7 @@ dependencies {
     implementation(DependenciesManager.kotlinImplementation)
     implementation(DependenciesManager.lifeCycleKtxImplementation)
     implementation(DependenciesManager.androidxImplementation)
+    implementation("com.github.faheem-digitify:TestCoreLib:0.0.4")
 
 
 
