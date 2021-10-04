@@ -1,11 +1,10 @@
 plugins {
     id(BuildPluginsConfig.androidApplication)
-    id(BuildPluginsConfig.androidHilt)
     kotlin(BuildPluginsConfig.kotlinAndroid)
-    kotlin(BuildPluginsConfig.kotlinKapt)
     id("kotlin-android")
     `maven-publish`
 }
+
 
 android {
     compileSdk =  (BuildAndroidConfig.COMPILE_SDK_VERSION)
@@ -43,8 +42,7 @@ dependencies {
     implementation(DependenciesManager.kotlinImplementation)
     implementation(DependenciesManager.lifeCycleKtxImplementation)
     implementation(DependenciesManager.androidxImplementation)
-    implementation(DependenciesManager.hiltImplementation)
-    kapt(HiltDaggerDependencies.DAGGER_COMPILER)
+
 
 
     testImplementation ("junit:junit:4.13.2")
